@@ -126,3 +126,40 @@ font-size: 3em;
     float: left;
 }
 /* End Video */
+/* Film */
+#film{
+    clear: both;
+    background-color: #000000;
+}
+#film h1{
+    
+    text-align: center;
+    font-size: 3em;
+    color: #CC0028;
+    padding-top: 40px;
+    clear: both;
+}
+#film .film-list{
+    width: 100%;
+}
+#film .film-list ul{
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#film .film-list li{
+   display: inline;
+}
+#film .film-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+ }
+ #film .film-list li p{
+    color: white;
+    font-size: 1.2em;
+ }
+/* End Film */
