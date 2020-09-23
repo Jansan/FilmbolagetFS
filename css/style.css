@@ -11,6 +11,10 @@ body{
     width: 100;
     
 }
+.container{
+    
+    padding: 40px;
+}
 /* Header */
 header{
     overflow: hidden;
@@ -83,3 +87,24 @@ font-size: 3em;
     font-size: 1.3em;
     }
 /* End Slider */
+/* Information */
+#information h1{
+    text-align: center;
+    font-size: 3em;
+    color: #CC0028;
+}
+#information .info-text{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+}
+#information .info-text .info-1{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+#information .info-text .info-2{
+    float: right;
+    width: 50%;
+    text-align: left;
+}
