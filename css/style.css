@@ -137,29 +137,45 @@ font-size: 3em;
     font-size: 3em;
     color: #CC0028;
     padding-top: 40px;
-    clear: both;
+    
 }
 #film .film-list{
     width: 100%;
 }
 #film .film-list ul{
     list-style-type: none;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
 }
 #film .film-list li{
-   display: inline;
+   display: block;
+   position: relative;
+   border-bottom: 1px solid #CC0028;
 }
+#film .film-list li img{
+    width: 100px;
+    height: auto;
+ }
 #film .film-list li a{
     text-decoration: none;
     color: white;
     font-size: 2em;
     font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    
+ }
+ #film .film-list li a:hover {
+    color:#CC0028;
  }
  #film .film-list li p{
     color: white;
     font-size: 1.2em;
+    position: absolute;
+    top: 60%;
+    left: 10%;
  }
 /* End Film */
