@@ -9,13 +9,23 @@ body{
     background-color: #FFFFFF;
     color: black;
     line-height: 1.6;
-    width: 100;
+    width: 100%;
     
 }
 .container{
     
     padding: 60px;
 }
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #CC0028;
+    padding-top: 40px;
+    clear: both;
+}
+a:hover {
+    color:#CC0028;
+ }
 /* Header */
 header{
     height: 115px;
@@ -87,6 +97,7 @@ color: white;
 }
 #slider .slider-text h1{
 font-size: 3em;
+color: white;
 }
 #slider .slider-text p{
     color: #CC0028;
@@ -94,11 +105,6 @@ font-size: 3em;
     }
 /* End Slider */
 /* Information */
-#information h1{
-    text-align: center;
-    font-size: 3em;
-    color: #CC0028;
-}
 #information .info-text{
     text-align: center;
     font-size: 1.2em;
@@ -116,15 +122,8 @@ font-size: 3em;
 }
 /* End Information */
 /* Video */
-#video h1{
-    text-align: center;
-    font-size: 3em;
-    color: #CC0028;
-    padding-top: 40px;
-    clear: both;
-}
 #video .video-boxes{
-    width: 100;
+    width: 100%;
     text-align: center;
 }
 #video .video-boxes .video-box{
@@ -141,14 +140,6 @@ font-size: 3em;
 #film{
     clear: both;
     background-color: #000000;
-}
-#film h1{
-    
-    text-align: center;
-    font-size: 3em;
-    color: #CC0028;
-    padding-top: 40px;
-    
 }
 #film .film-list{
     width: 100%;
@@ -178,9 +169,6 @@ font-size: 3em;
     top: 30%;
     left: 10%;
     
- }
- #film .film-list li a:hover {
-    color:#CC0028;
  }
  #film .film-list li p{
     color: white;
