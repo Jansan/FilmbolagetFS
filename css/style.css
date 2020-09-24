@@ -131,6 +131,11 @@ font-size: 3em;
     width: 33%;
     float: left;
 }
+.video-box iframe{
+    width:320px ;
+    height:280px;
+    border: none;
+}
 /* End Video */
 /* Film */
 #film{
